@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+}
+
+/*Navbar Styling*/
+.navbar
+{
+    display: flex;
+    justify-content:flex-end;
+    align-items: right;
+    /*navbar sticky*/
+    position: sticky;
+    top: 0;
+    overflow-x: hiddens;
+    background: linear-gradient(springgreen,rgba(0, 57, 163, 0.158));
+}
+.navbar ul
+{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li
+{
+    font-family:serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 25px;
+    margin: 15px;
+    transition: all .5s ease;
+}
+.navbar ul  li a:hover
+{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/*navbar styling ends here*/
+
+
+/*volunteer*/
+
+.container
+{
+ Display: flex;
+ Justify-content: center;
+ Align-items: center;
+ Flex-wrap: wrap;
+}
+.container .card
+{
+ Width: 330px;
+ Height: 416px;
+ Padding: 60px 30px;
+ Margin: 20px;
+ Background: #f2f3f7;
+ Box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+ -0.5em -0.5em 1em #ffffff;
+ Border-radius: 20px;
+}
+.container .card .content
+{
+ Display: flex;
+ Justify-content: center;
+ Align-items: center;
+ Flex-direction: column;
+}
+.container .card .content .imgBx
+{
+ Width: 180px;
+ Height: 180px;
+ Border-radius: 50%;
+ Position: relative;
+ Margin-bottom: 20px;
+ Overflow: hidden;
+}
+.container .card .content .imgBx img
+{
+ Position: absolute;
+ Top: 0;
+ Left: 0;
+ Width: 100%;
+ Height: 100%;
+ Object-fit: cover;
+}
+.container .card .content .contentBx h4
+{
+ Color: #36187d;
+ Font-size: 1.7rem;
+ Font-weight: bold;
+ Text-align: center;
+ Letter-spacing: 1px;
+}
+.container .card .content .contentBx h5
+{
+ Color: #6c758f;
+ Font-size: 1.2rem;
+ Font-weight: bold;
+ Text-align: center;
+}
+.container .card .content .sci
+{
+ Margin-top: 20px;
+}
+.container .card .content .sci a
+{
+ Text-decoration: none;
+ Color: #6c758f;
+ Font-size: 30px;
+ Margin: 10px;
+ Transition: color 0.4s;
+}
+.container .card .content .sci a:hover
+{
+ Color: #0196e3;
+}
+
+/*Add volunteer */
+.add
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:100px,20px;
+    
+    text-align: center;
+    background: linear-gradient(springgreen,rgb(126, 197, 255));
+}
+
+.add .add1
+{
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.add .add1 h1
+{
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+}
+
+.add .add1 h1:hover
+{
+color:rgba(0, 7, 20, 0.918) ;
+font-size: 3.1rem;
+}
+
+/*button styling*/
+.btn
+{   font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 35px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: white;
+   border: none;
+    color: rgba(0, 7, 20, 0.918);
+    outline: none;
+    transition: .6s ease;
+    max-width: 400px;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px white;
+    font-weight: bold;
+    border: none;
+}
